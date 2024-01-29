@@ -13,7 +13,7 @@ function App() {
   const [alert, setAlert] = useState(null);
   const [mode, setMode] = useState("light");
 
-  const showAlert = (message, type) => {
+  const showAlert = (message, type) => {//its for showing alerts
     setAlert({
       msg: message,
       type: type
